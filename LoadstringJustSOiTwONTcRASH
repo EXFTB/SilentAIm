@@ -6,7 +6,7 @@
             hookmetamethod = hookmetamethod
             Drawing = Drawing
 
-           local getgenv().FOV_CIRCLE = Drawing.new("Circle")
+           getgenv().FOV_CIRCLE = Drawing.new("Circle")
            getgenv().FOV_CIRCLE.Visible = false
            getgenv().FOV_CIRCLE.Filled = false
            getgenv().FOV_CIRCLE.Thickness = 1
