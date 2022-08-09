@@ -6,14 +6,14 @@
             hookmetamethod = hookmetamethod
             Drawing = Drawing
 
-           getgenv().FOV_CIRCLE = Drawing.new("Circle")
-           getgenv().FOV_CIRCLE.Visible = false
-           getgenv().FOV_CIRCLE.Filled = false
-           getgenv().FOV_CIRCLE.Thickness = 1
-           getgenv().FOV_CIRCLE.Transparency = 1
-           getgenv().FOV_CIRCLE.Color = Color3.new(0, 1, 0)
-           getgenv().FOV_CIRCLE.Radius = getgenv().SILENTFOV
-           getgenv().FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+           getgenv().SILENTFOV_CIRCLE = Drawing.new("Circle")
+           getgenv().SILENTFOV_CIRCLE.Visible = false
+           getgenv().SILENTFOV_CIRCLE.Filled = false
+           getgenv().SILENTFOV_CIRCLE.Thickness = 1
+           getgenv().SILENTFOV_CIRCLE.Transparency = 1
+           getgenv().SILENTFOV_CIRCLE.Color = Color3.new(0, 1, 0)
+           getgenv().SILENTFOV_CIRCLE.Radius = getgenv().SILENTFOV
+           getgenv().SILENTFOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 
 Options = {
 	Torso = "HumanoidRootPart";
